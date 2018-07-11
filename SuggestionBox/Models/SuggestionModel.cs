@@ -11,7 +11,6 @@ namespace SuggestionBox.Models
     {
         public string Topic { get; set; }
 
-        [DisplayName("Suggestion Comments")]
         public string Suggestion { get; set; }
 
         [Key]
